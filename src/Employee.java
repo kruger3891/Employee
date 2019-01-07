@@ -10,10 +10,10 @@ public class Employee {
 	
 
 
-	public Employee(String name, int salary, int ID, int dateOfHired) {
+	public Employee(String name,  int ID, int dateOfHired) {
 		super();
 		this.name = name;
-		this.salary = salary;
+		
 		this.ID = ID;
 		this.dateOfHired = dateOfHired;
 	}

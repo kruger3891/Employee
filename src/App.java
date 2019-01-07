@@ -7,8 +7,8 @@ public class App {
 	public static void main(String[] args) {
 		
 //		Employee employee = new Employee(name, salary, ID, dateOfHired);
-		SystemDeveloper developer = new SystemDeveloper("Marcus", 25000, 876544, 01/02/1982, 0, 0);
-		SalesPerson sales = new SalesPerson("Magnus", 25000, 876544, 01/02/1982, 0, 0);
+		SystemDeveloper developer = new SystemDeveloper("Marcus", 0, 876544, 01/02/1982, 0, 0);
+		SalesPerson sales = new SalesPerson("Magnus", 0, 876544, 01/02/1982, 0, 0);
 		
 		
 		System.out.println("##   What do you want to do   ## ");
@@ -19,6 +19,7 @@ public class App {
 		switch(function) {
 		
 		case 1:
+			System.out.println(" Hallo System Developer ");
 			System.out.println("Pls Put The Number Of Certificate");
 			developer.setCertificate(sc.nextInt());
 			
@@ -29,6 +30,7 @@ public class App {
 			break;
 			
 		case 2:
+			System.out.println(" Hallo Sales Person ");
 			System.out.println("Pls Put The Number Of Managed Client");
 			sales.setManagedClient(sc.nextInt());
 			

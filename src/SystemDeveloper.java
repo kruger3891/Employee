@@ -6,7 +6,7 @@ public class SystemDeveloper extends Employee{
 	private int programmingLanguage;
 	
 	public SystemDeveloper(String name, int salary, int ID, int dateOfHired, int certificate, int programmingLanguage) {
-		super(name, programmingLanguage, programmingLanguage, programmingLanguage);
+		super(name,  ID,  dateOfHired);
 		this.certificate = certificate;
 		this.programmingLanguage = programmingLanguage;
 		this.salary = getSalary()+ (1000*getCertificate() + (1500*getProgrammingLanguage()));
